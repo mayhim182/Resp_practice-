@@ -1,27 +1,54 @@
-h1,h2,p,section{
-    text-align: center;
+h1,
+h2,
+p,
+section {
+  text-align: center;
 }
 
-body{
-    background: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+h1{
+    font-size: 40px;
 }
 
-.menu{
-    width: 80%;
-    background-color: burlywood;
-    margin: auto;
+h2{
+    font-size: 30px;
 }
 
-.flavor{
-    text-align: left;
-    width: 75%;
+h1,
+h2 {
+  font-family: Impact;
 }
 
-.price{
-    text-align: right;
-    width: 25%;
+body {
+  background: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
 }
 
-.item p { 
-    display: inline-block;
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom:5px;
+  font-size: 18px;
+}
+
+.established{
+    font-style: italic;
 }
