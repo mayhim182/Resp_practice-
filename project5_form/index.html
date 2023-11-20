@@ -14,7 +14,8 @@
             <label for="first-name" class="labelBlock" id="first-name">Enter Your First Name: <input></label>
             <label for="last-name" class="labelBlock" id="last-name">Enter Your Last Name: <input></label>
             <label for="email" class="labelBlock" id="email">Enter Your Email: <input></label>
-            <label for="Password" class="labelBlock" id="newPassword">Create a New Password: <input type="password"></label>
+            <label for="Password" class="labelBlock" id="newPassword" minlength="8" 
+                    required pattern="[a-z0-5]{8,}">Create a New Password: <input type="password"></label>
         </fieldset>
         <fieldset></fieldset>
         <fieldset></fieldset>
