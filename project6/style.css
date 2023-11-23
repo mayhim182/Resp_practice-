@@ -2,3 +2,22 @@
 label{
     display: block;
 }
+
+#title, #description{
+    max-width: 500px;
+    min-width: 300px;
+    width: 100vw;
+    text-align: center;
+    margin: auto;
+}
+
+select, textarea{
+    display: block;
+}
+
+form{
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    margin: auto;
+}
