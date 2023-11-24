@@ -21,3 +21,8 @@ form{
     width: 60vw;
     margin: auto;
 }
+
+.inputBoxCustom{
+    width: 100%;
+    border-radius: 1rem;
+}
